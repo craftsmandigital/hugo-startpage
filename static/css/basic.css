@@ -1,0 +1,44 @@
+
+body {
+  background-color: powderblue;
+}
+
+.container > div > span {
+color: black;
+}
+
+.container > div {
+  /* display: flex; */
+  text-align: center;
+  
+  padding: 1em;
+  /* vertical-align: middle; */
+  /* align-items: center; */
+  font-size: 1em;
+  color: #ffeead;
+}
+
+html, body {
+  background-color: black;
+  /* background-color: #ffeead; */
+  margin: 10px;
+}
+
+.container > div:nth-child(1n) {
+  background-color: #96ceb4;	
+}
+
+.container > div:nth-child(3n) {
+  background-color: #2ece7e;
+}
+
+.container > div:nth-child(2n) {
+  background-color: #ff6f69;
+}
+
+.container > div:nth-child(4n) {
+  background-color: #ffcc5c;
+}
+.container > div:nth-child(5n) {
+  background-color: #a1a19f;
+}

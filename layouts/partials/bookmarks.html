@@ -1,0 +1,9 @@
+<div class="container">
+  {{ range.Site.Data.bookmarks }}
+  <div>
+    <a style="text-decoration:none; color:inherit;" href="{{ .URL }}">
+      <i class="{{ .Icon }} fa-6x"></i><br /><span>{{ .Description}}</span>
+    </a>
+  </div>
+  {{ end }}
+</div>
