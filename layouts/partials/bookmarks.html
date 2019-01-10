@@ -1,5 +1,5 @@
 <div class="container">
-  {{ range.Site.Data.bookmarks }}
+{{ range sort .Site.Data.bookmarks "Sort" }}
   <div>
     <a style="text-decoration:none; color:inherit;" href="{{ .URL }}">
       <i class="{{ .Icon }} fa-6x"></i><br /><span>{{ .Description}}</span>
