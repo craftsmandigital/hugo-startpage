@@ -62,7 +62,7 @@
   "100": {
     "Sort": 100,
     "Description": "Nav",
-    "URL": "https://idporten.difi.no/opensso/UI/Login?realm=/norge.no&spEntityID=nav&service=IDPortenLevel3List&goto=http://idporten.difi.no/opensso/SSORedirect/metaAlias/norge.no/idp3?ReqID%3Ds2f6aaff47a5206308c74c69bcebe62fc548c74cf4%26index%3Dnull%26acsURL%3Dhttps://tjenester.nav.no:443/esso/Consumer/metaAlias/sp%26spEntityID%3Dnav%26binding%3Durn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact",
+    "URL": "https://www.nav.no/no/Person",
     "Icon": "far fa-circle"
   },
   "70": {
