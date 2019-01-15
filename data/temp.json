@@ -1,0 +1,92 @@
+{
+  "40": {
+    "Sort": 40,
+    "Description": "GitHub",
+    "URL": "https://github.com/hackingjack?tab=repositories",
+    "Icon": "fab fa-github"
+  },
+  "10": {
+    "Sort": 10,
+    "Description": "Drive",
+    "URL": "https://drive.google.com/",
+    "Icon": "fab fa-google-drive"
+  },
+  "30": {
+    "Sort": 30,
+    "Description": "Pocket",
+    "URL": "https://getpocket.com/a/favorites/list/",
+    "Icon": "fab fa-get-pocket"
+  },
+  "20": {
+    "Sort": 20,
+    "Description": "YouTube",
+    "URL": "https://www.youtube.com/",
+    "Icon": "fab fa-youtube"
+  },
+  "50": {
+    "Sort": 50,
+    "Description": "Finn",
+    "URL": "https://www.finn.no/user.html",
+    "Icon": "fab fa-fonticons"
+  },
+  "60": {
+    "Sort": 60,
+    "Description": "Facebook",
+    "URL": "https://www.facebook.com/",
+    "Icon": "fab fa-facebook"
+  },
+  "12": {
+    "Sort": 12,
+    "Description": "GMail",
+    "URL": "https://mail.google.com",
+    "Icon": "far fa-envelope"
+  },
+  "15": {
+    "Sort": 15,
+    "Description": "Calendar",
+    "URL": "https://calendar.google.com",
+    "Icon": "far fa-calendar-check"
+  },
+  "18": {
+    "Sort": 18,
+    "Description": "Photo",
+    "URL": "https://photos.google.com",
+    "Icon": "far fa-image"
+  },
+  "19": {
+    "Sort": 19,
+    "Description": "Keep",
+    "URL": "https://keep.google.com",
+    "Icon": "far fa-lightbulb"
+  },
+  "100": {
+    "Sort": 100,
+    "Description": "Nav",
+    "URL": "https://www.nav.no/no/Person",
+    "Icon": "far fa-circle"
+  },
+  "70": {
+    "Sort": 70,
+    "Description": "DinSide",
+    "URL": "https://www.dinside.no/",
+    "Icon": "fas fa-desktop"
+  },
+  "80": {
+    "Sort": 80,
+    "Description": "Hugo",
+    "URL": "https://discourse.gohugo.io/",
+    "Icon": "fab fa-earlybirds"
+  },
+  "90": {
+    "Sort": 90,
+    "Description": "YahooMail",
+    "URL": "https://mail.yahoo.com",
+    "Icon": "fab fa-yahoo"
+  },
+  "99": {
+    "Sort": 99,
+    "Description": "FinViz",
+    "URL": "https://finviz.com/",
+    "Icon": "fas fa-chart-line"
+  }
+}
