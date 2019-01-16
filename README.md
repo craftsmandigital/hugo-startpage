@@ -19,7 +19,7 @@
 
 ## Build comand
 - If dependensies is not installed then first runn
-> npm init
+> npm install
 - Build command
 > npm start
 
