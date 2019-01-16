@@ -2,7 +2,7 @@
 - This is a simple Hugo Project. I create a site, a very tiny one. It contains only one page that display all my favourite links on the internet. 
 - That tiny home page render data from a Google sheet which contain all my favourites on the internet. 
 - This is how the site looks like. [You can visit the site on this address](https://viksaas.netlify.com/)
-- This is the spreadsheet the site is generated from. [Here is the link to the spreadsheet](https://drive.google.com/open?id=1MGUALaxpQ8yfZgCP4q0OJ0Bz5rul_kIs)
+- This is the spreadsheet the site is generated from. [Here is the link to the spreadsheet](https://docs.google.com/spreadsheets/d/1cWfyYQrW2RGY_CmDfJ4LtQCLgyKmbqC-oeYbLOserfo/edit#gid=0)
 
 ##  Here is the user interaction to update the site with new data from the spreadsheet
 - user edit the spreadsheet
@@ -12,6 +12,7 @@
 ## Here is the algorithm how it works. 
 - On build time the script **index.js** in home directory does this:
     - Fetc data from spredsheat above and convert it to a JSON file.
+      - The spreadshet has to be public aviable. Do not deal with creditentials in this simple project.
     - Automaticaly place JSON in HUGO data folder **./data/bookmark.json**
     - And finally at the end we build the project.
 - That means every time we build the project, the site is updated according to the spreadsheet.
