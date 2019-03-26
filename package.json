@@ -4,7 +4,7 @@
   "description": "This is my personal home page on internet. Render bookmarks from a gogle spreadsheet",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js && hugo",
+    "start": "node index.js && hugo && gulp minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/hackingjack/hugo-startpage#readme",
   "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "npm": "^6.9.0",
     "spreadsheet-to-json": "^1.3.1"
   }
 }
