@@ -6,15 +6,15 @@
 
 ##  Here is the user interaction to update the site with new data from the spreadsheet
 - User edit the spreadsheet
-- The user push a button on an Android device that I have made with ifttt. the button triggers a deploy on netlify
+- The user push a button on an Android device that I have made with [ifttt](https://ifttt.com/). the button triggers a deploy on netlify
   - More about the button I explain later on.
 - Hip hurray, favorite internet links is updated according to spreadsheet.
 
 ## Here is the algorithm how it works. 
-- On build time the script [index.js](./index.js) in home directory does this:
+- On build time the script [./index.js](./index.js) in home directory does this:
     - Fetch data from spredsheat above and convert it to a JSON file.
       - The spreadsheet has to be public available. Do not deal with credentials in this simple project.
-    - Automatically place JSON in HUGO data folder **./data/bookmark.json**
+    - Automatically place JSON in HUGO data folder [./data/bookmarks.json](./data/bookmarks.json).
     - And finally at the end we build the project.
 - That means every time we build the project, the site is updated according to the spreadsheet.
 
